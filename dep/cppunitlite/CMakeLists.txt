@@ -19,7 +19,3 @@ target_include_directories(cppunitlite PRIVATE
 target_compile_definitions(cppunitlite PRIVATE
 	_GLIBCXX_USE_CXX11_ABI=0
 )
-
-target_compile_options(cppunitlite PRIVATE
-	-m32
-)
